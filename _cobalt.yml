@@ -28,12 +28,5 @@ assets:
 pages:
   default: {}
 posts:
-  title: ~
-  description: ~
   dir: posts
-  drafts_dir: _drafts
-  order: Desc
-  rss: ~
-  jsonfeed: ~
-  publish_date_in_filename: true
   default: {}

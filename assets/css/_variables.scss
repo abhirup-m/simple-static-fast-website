@@ -7,7 +7,7 @@
    ========================================================================== */
 
 $doc-font-size: 1.4em !default;
-$line-height: 1.5 !default;
+$line-height: 1.3 !default;
 $mainMargin: 2em !default;
 
 /* paragraph indention */
@@ -15,10 +15,9 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Inter", "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$serif: "Roboto Condensed", serif !default;
+$sans-serif: "Roboto Condensed", sans-serif !default;
+$monospace: "Roboto Condensed", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -57,10 +56,10 @@ $h-size-6: 1em !default; // ~16px
    Colors
    ========================================================================== */
 
-$numixdarkgray: #2D2D2D !default;
+$numixdarkgray: #111 !default;
 $numixgray: #3D3D3D !default;
 $numixlightgray: #535353 !default;
-$numixwhite: #DEDEDE !default;
+$numixwhite: #EEEEEE !default;
 $numixred: #D64937 !default;
 
 /*
