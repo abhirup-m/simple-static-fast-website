@@ -1,0 +1,21 @@
+@import "variables.scss";
+
+body {
+  color: $numixdarkgray;
+  background-color: $numixwhite;
+  font-family: $global-font-family;
+  font-size: $doc-font-size;
+  margin: $mainMargin;
+  padding: 0;
+  line-height: $line-height;
+}
+
+a {
+  color: $numixred;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0.15em;
+}
