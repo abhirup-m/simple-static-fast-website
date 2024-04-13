@@ -11,7 +11,7 @@ body {
   text-align: justify;
   display: block;
   margin: auto;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 h1, h2, h3 {
@@ -32,5 +32,28 @@ a {
 }
 a:hover{
     text-decoration: underline;
-    text-decoration-thickness: 0.15em;
+    text-decoration-thickness: 0.14em;
+}
+
+div.topbar {
+    display: block;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+    border-bottom: 0.2em solid black;
+    height: 1em;
+    color: $numixlightgray;
+    > a {
+      color: $numixlightgray;
+      text-decoration: none;
+    }
+}
+
+.home-button {
+    float: left;
+}
+.page-buttons {
+    float: right;
+    > span {
+    padding-left: 0.5em;
+  }
 }
