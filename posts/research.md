@@ -1,4 +1,5 @@
 ---
+layout: default.liquid
 title: Research Work
 permalink: /research/
 ---
@@ -13,5 +14,5 @@ This is a list of my publications (and preprints) and the projects that I am cur
 ## Publications and Preprints
 
 {% for work in site.data.publications %}
-- {{ work }}
+- {{ work[0] }}
 {% endfor %}

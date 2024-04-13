@@ -11,7 +11,10 @@ body {
   text-align: justify;
   display: block;
   margin: auto;
-  margin-top: 1em;
+}
+
+html {
+  padding: 2em;
 }
 
 h1, h2, h3 {
@@ -48,12 +51,27 @@ div.topbar {
     }
 }
 
-.home-button {
+.home-button, .home-button-icon {
     float: left;
 }
-.page-buttons {
+.page-button, .page-button-icon {
     float: right;
-    > span {
-    padding-left: 0.5em;
-  }
+    padding-left: 1em;
+}
+
+@media screen and (max-width: 600px) {
+    .home-button-icon,.fa.page-button-icon {
+      display: block;
+    }
+    .home-button,.page-button {
+      display: none;
+    }
+}
+@media screen and (min-width: 600px) {
+    .fa.home-button-icon,.fa.page-button-icon {
+      display: none;
+    }
+    .home-button,.page-button {
+      display: block;
+    }
 }

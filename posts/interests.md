@@ -1,4 +1,5 @@
 ---
+layout: default.liquid
 title: Research Interests
 permalink: /work/
 ---
@@ -25,7 +26,7 @@ I am a part of the Emergent Phenomena and Quantum Matter ([EPQM](https://www.iis
 - Renormalisation group in the context of **optimization** problems. Using particular renormalisation group method(s) to classify microscopic models based on behaviour of quantum fluctuations. 
 
 
-![](/assets/images/work/xkcd-sand.png)
+![](/assets/images/work/xkcd_areas_of_physics.jpg)
 
 ## Master's thesis work
 
