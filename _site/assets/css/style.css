@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/*
+   Typography
+   ========================================================================== */
+/* paragraph indention */
+/* system typefaces */
+/* sans serif typefaces */
+/* serif typefaces */
+/* type scale */
+/* headline scale */
+/*
+   Colors
+   ========================================================================== */
+/*
+   Breakpoints
+   ========================================================================== */
+/*
+   Grid
+   ========================================================================== */
+/*
+   Other
+   ========================================================================== */
+body {
+  color: #2D2D2D;
+  background-color: #DEDEDE;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 1.4em;
+  margin: 2em;
+  padding: 0;
+  line-height: 1.3; }
+
+a {
+  color: #D64937;
+  font-weight: bold;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.15em; }
