@@ -16,7 +16,8 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: "Roboto Condensed", serif !default;
-$sans-serif: "Roboto Condensed", sans-serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto Condensed", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: "Roboto Condensed", monospace !default;
 
 /* sans serif typefaces */
